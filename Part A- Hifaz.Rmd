@@ -1,0 +1,259 @@
+---
+title: "Why is R a superior tool to analyze an epidemic? & Indicators of COVID 19, that may interest policy makers"
+author: "Ahmed Hifaz"
+date: "05/01/2020"
+output:
+  ioslides_presentation: default
+  beamer_presentation: default
+  slidy_presentation: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+## KEY
+- R-The programming language
+- r-The indicator (Reproduction number)
+![Whyyrussss??](C:\Users\user\Downloads\WhatsApp Image 2020-12-18 at 8.21.40 PM (6).jpeg){width=80%}
+
+## Data analytics & Epidemiology
+- Data analysis is vital for epidemiological research.
+- Due to increasing discovery of new diseases, and pandemics, advancement for epidemiological studies is obligatory!
+- The cost of commercial staistical softwares proves to be substantially high, as a result, developing countries often tend to rely on pirated software copies. (Majority of them consist of limited specifications)
+![](C:\Users\user\OneDrive\Desktop\venn.png){width=60%}
+
+## What is "R",and how could it be utilized?
+- R is an open source programming language utilized for the study of data analysis and programming.
+- It follows an “open source software philosophy”. 
+- Makes upto some of the downsides of the commercial statistical package software!
+- Vital tool for: Research epidemiologists, Mathematicians, Statisticians, and Public health analysts
+- R is used to explore, analyze and interpret epidemiological data (Reports, Articles and tables)
+- Capable of quantitatively expressing, graphically exploring, and describing epidemiologic data.
+- R could be utilized as the following tools:
+
+## R could be utilized as (1):
+Full Function Calculator 
+
+![](C:\Users\user\OneDrive\Desktop\calc.JPG)
+
+## R could be utilized as (2)
+Extensible statistical package
+
+![](C:\Users\user\OneDrive\Desktop\ESP.png){width=100%}
+
+## R could be utilized as (3)
+High quality graphic tools
+
+![](C:\Users\user\OneDrive\Desktop\graphic tools.png){width=100%}
+
+## R could be utilized as (4)
+Multi purpose programming language
+
+![](C:\Users\user\OneDrive\Desktop\BestApps_RProgramming.jpg){width=40%}
+
+## R and it's utilization
+- R is able to manipulate, explore, and graphically display data with ease.
+- Through the use of R: Epidemiologists are capable of handling several datasets could be simultaneously!
+- Steep learning curve: Could produce descriptive graphs, and be used to view the trend of the pandemic/epidemics over time, and to predict future trends
+- R offers a range of statistical tools (Readily integrated):
+
+## 1)Cox proportional hazard regression
+
+![](C:\Users\user\OneDrive\Desktop\unnamed.png){width=80%}
+
+## 2)Unconditional Logistic Regression
+
+![](C:\Users\user\OneDrive\Desktop\gr2_lrg.jpg){width=80%}
+
+## 3)Poisson Regression 
+
+![](C:\Users\user\OneDrive\Desktop\pg.JPG){width=90%}
+
+## 4)Survival Analysis
+
+![](C:\Users\user\OneDrive\Desktop\sa.JPG){width=90%}
+
+## 5)Multilevel modeling
+
+![](C:\Users\user\OneDrive\Desktop\ijerph-17-07016-g001.png){width=90%}
+
+## Matrices & Algebra
+Several advanced mathematical equations such as matrix algebra could be analysed with ease.
+
+![](C:\Users\user\OneDrive\Desktop\Matris.png){width=70%}
+
+## The "r number" as an indicator
+- Data (age,race,ethnicity, gender) is critical!
+- Effects of the virus are understood by determining: 
+1) r NUMBER (Reproduction Number), 
+2) Number of cases, 
+3) Severity
+- r is the number one infected person who will pass the disease on to others
+- The Corona crisis, is a global pandemic, and Governments are struggling to bring the number down (3-1)
+- Currently with limited vaccinations made available to the public Covid-19’s r number is 2.5-3 (1.3 for the common flu)
+- <1= Malicious outbreak`
+
+## What does the spread look like?
+
+!["The r number"](C:\Users\user\OneDrive\Desktop\r_border.jpg){width=100%}
+
+## Human behaviour, and policy making in line with "r number"
+- r number vary in line with human behaviour (quarantine, social distancing, hygiene etc.)
+- r numbers play a crucial role in socio-economic state decision making (Impose lockdown, extend lockdown, ease lockdown, obligatory mask rule, maximum number of people allowed at a hotspot etc)
+- E.g. When the lockdown was announced in march, the r number plunged to 0.6, exponentially decreasing the spread of the virus.
+- Why are we currently in a lockdown: The r numbers are exponentially higher than 1
+- What can we do: Have patience, responsibility, and most importantly wear our masks!
+
+## How is the "R number" extracted
+- E.g. with a mean of 5.0 days, and a standard deviation of 3.4 for the serial interval distribution would result in a r number of 2.503. 
+- Keeping in mind that any number higher than 1 is lethal, the 2.503 scale is extremely volatile and highly contagious!
+
+![](C:\Users\user\OneDrive\Desktop\cv.JPG){width=55%}
+
+## Drawbacks of the "r number"
+- The r number is one of the indicators to analyze the degree of outbreak
+
+- It doesn't provide real time data (Lacks real time updates)
+
+- Represents only an average across a region (E.g. Bonn & Cologne might have different r numbers, but they are categorized under the state of “North Rhine Westphalia, and are given the same r number)
+
+## What is RECON?
+- Known as “R Epidemics Consortium”, is an international non profit & non governmental organization.
+- They gather experts in fields such as; data science, modeling methodology, public health, and software development to create the next generation of analytics tools.
+- They are specialized in analyzing and informing the mass about how to act in line with the outbreak (Aid in contingency)
+- Most fundamentally used RECON tool: "R"
+
+## RECON's Packages
+- RECON’s packages are specifically designed for:
+- Handling
+- Visualising
+- Analysing outbreak data 
+- Using cutting-edge statistical methods, fulfilling three key aspects:
+1) Efficiency-Real time information in order to improve awareness
+2) Reliability-Tested and approved through professional software development methods
+3) Accessibility-Openly sourced accessible tools, made available on virtually any platform.
+
+## RECON Learn (One of RECON'S packages)
+![https://www.repidemicsconsortium.org/](C:\Users\user\OneDrive\Desktop\download.png){width=100%}
+
+## RECON learn
+- This package gives a few insights on the methodological aspects of sorrounding the outbreak
+- E.g. Days/Weeks index, availability of limited data, limited intervention, rate of response.
+- The data that's available is extracted from past learnings (Previous outbreaks)
+- E.g. Dates of death or recovery, Dates of exposure, contact tracing (who infects who), and dates of symptoms.
+![](C:\Users\user\Downloads\WhatsApp Image 2020-12-18 at 8.21.40 PM (2).jpeg){width=40%}
+
+## Factors to consider when analyzing the outbreak:
+- Rate of growth
+- Reason 
+- Fatality ratio
+- Degree of effect on the pupil
+
+![](C:\Users\user\Downloads\WhatsApp Image 2020-12-18 at 8.21.40 PM (5).jpeg){width=60%}
+
+## Predictions??
+- Another major challenge for the data scientists of RECON is to forecast the expected number of cases within a certain time frame.
+
+![](C:\Users\user\Downloads\WhatsApp Image 2020-12-18 at 8.21.40 PM (4).jpeg){width=80%}
+
+## Other factors?
+- Population
+- Samples (Cases of covid reported within a certain period)
+- Statistics regarding the degree of fatalities
+- Inference (E.g. Bavaria has the highest R number in Germany)
+
+![](C:\Users\user\Downloads\WhatsApp Image 2020-12-18 at 8.21.40 PM (1).jpeg){width=60%}
+
+## Estimating Key Delays 1
+- Incubation Period: Refers to the time interval between the date on infection and the date of symptom onset!
+![](C:\Users\user\OneDrive\Desktop\Ic.JPG){width=65%}
+
+## Estimating Key Delays 2
+- The serial interval : Refers to the time interval between onset of symptoms in primary, and secondary cases.
+
+![](C:\Users\user\OneDrive\Desktop\ic 2.JPG){width=70%}
+
+## Estimating Key Delays 3
+- The Generation Time : Refers to the time travel interval between date of infections in primary, and secondary cases.
+
+![](C:\Users\user\OneDrive\Desktop\ic 3.JPG){width=70%}
+
+## Web Scraping
+- COVID data isn't written in a straightforward manner, but given rather in counts (Embedded)
+- E.g. Recovered cases, deaths count, magnitude of affected people at a certain hotspot
+- Web Scraping: Is a technique used to extract a large magnitude of data from the website and store it in a local desktop in a table or spreadsheet format.
+- Data used from sources such as wikipedia (Easy to read) are often challenging to scrape, since they're crowdsourced, and lack real time updates 
+
+## John Hopkins University Center
+- Home to several notoriously known collection of coallted data, which provide real time information, centering the pandemic.
+- ALL TECHNOLOGY HAS CONSTRAINTS: Datasets from John Hopkins university consists of few missing data (Lagging time, few missing incidents)
+
+![](C:\Users\user\OneDrive\Desktop\Coronavirus-Memes2.jpg){width=50%}
+
+## The Second Wave
+
+!["The Comeback"](C:\Users\user\OneDrive\Desktop\Capture.JPG){width=80%}
+
+## Germany's haunted State 
+- Why is it important to have a detailed analysis of primary & secondary cases?
+- Why has Saxony been affected so hard by the "Second Wave"
+
+![](C:\Users\user\OneDrive\Desktop\europakarte.jpg){width=70%}
+
+## "Saxonian second wave"
+- The East German state of Saxony is one of the worst hit regions by the second wave.
+- Hospitals are in deep turmoil, due to limited bed capacities (It has to choose who gets access over the ventilators.
+- Currently, Saxony is under a complete lockdown, just as other German states.
+
+![](C:\Users\user\OneDrive\Desktop\ec46393fedb9f4ad1001eb78df738d0f62cf58bdc3117f36589dea403e694fd1.jpg){width=50%}
+
+## Saxony is the worst hit with 40.4% (with cases there now at over 400 per 100,000 inhabitants)
+
+![](C:\Users\user\OneDrive\Desktop\saxony.JPG){width=80%}
+
+## The Reason? Unknown!!
+- Why is the reason unknown? Since data on where people have contracted the virus is still unknown. 
+- It’s vital have an insight of the primary cases, secondary cases, and location of contraction in order to have a 360 degree analysis on the outbreak, and to stabilize)
+- However, Epidemiologists have constructed some "theories" regarding the rapid outbreak:
+
+![](C:\Users\user\OneDrive\Desktop\npc.jpg){width=60%}
+
+## Theory 1 (An aging population)
+- The state has the oldest population in Germany, who are more likely to contract the virus, and infect one another in comparison to the youth.
+
+![](C:\Users\user\OneDrive\Desktop\3t5cfd.jpg){width=40%}
+
+## Theory 2 (Borders with Czech Republic & Poland)
+- Saxony shares its border with the Czech Republic and Poland, thus making it accessible for them to travel to and from the state, with no obligatory testing required. 
+- Just like Saxony, the Central European country of Czech Republic has been hit hard by the second wave, since dropping the majority of it’s Corona restrictions in the summer.
+- The cases in Czech Republic are progressing to increase.
+- On the other hand, Poland has also seen similar circumstances, fortunately, the cases are falling in Poland under the current circumstances.
+
+## Theory 3 (Hotspots in Villages)
+- The two of the major Saxonian cities (Dresden & Leipzig), haven’t been hit as hard as the rural areas and the countryside.
+- Some epidemiologists claim that the reason for this is “carelessness” (Meeting friends, holding private gatherings at remote locations where authorities hold hardly any control.)
+
+ ![](C:\Users\user\OneDrive\Desktop\christmas-village.jpg){width=60%}R
+
+## References (Part 1)
+- Thelocal.de. 2020. [online] Available at: <https://www.thelocal.de/20201221/analysis-why-has-saxony-been-hit-so-hard-by-the-winter-wave-of-the-coronavirus-pandemic?fbclid=IwAR3Os5dK7MCyMXslUzO6o6iDsJbGUg1Rv_xy0m0-Jl-M8slwB5l2hxPS_YE> [Accessed 23 December 2020].
+- Consortium, R., 2020. R Epidemics Consortium. [online] Repidemicsconsortium.org. Available at: <https://www.repidemicsconsortium.org/> [Accessed 23 December 2020].
+- Jombart, T., 2020. A Primer On Statistical Outbreak Analysis. [online] Reconlearn.org. Available at: <https://www.reconlearn.org/slides/outbreak-statistics/outbreak-statistics.html#1> [Accessed 23 December 2020].
+
+## References (Part 2)
+- BBC News. 2020. Coronavirus: What Is The R Number And How Is It Calculated?. [online] Available at: <https://www.bbc.com/news/health-52473523> [Accessed 23 December 2020].
+- Rki.de. 2020. RKI - Coronavirus SARS-Cov-2 - Nowcasting Und R-Schätzung: Schätzung Der Aktuellen Entwicklung Der SARS-Cov-2-Epidemie In Deutschland. [online] Available at: <https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Projekte_RKI/Nowcasting.html> [Accessed 23 December 2020].
+- Views, R., 2020. COVID-19 Epidemiology With R. [online] Rviews.rstudio.com. Available at: <https://rviews.rstudio.com/2020/03/05/covid-19-epidemiology-with-r/> [Accessed 23 December 2020].
+
+## References (Part 3)
+- Nature.com. 2020. A Guide To R — The Pandemic’S Misunderstood Metric. [online] Available at: <https://www.nature.com/articles/d41586-020-02009-w> [Accessed 23 December 2020].
+- Churches, T., 2020. Tim Churches Health Data Science Blog: Analysing COVID-19 (2019-Ncov) Outbreak Data WithR Part 1. [online] Tim Churches Health Data Science Blog. Available at: <https://timchurches.github.io/blog/posts/2020-02-18-analysing-covid-19-2019-ncov-outbreak-data-with-r-part-1/#checking-the-data> [Accessed 23 December 2020].
+- Sky News. 2020. Coronavirus: Why The Government Will Anxiously Look At The R Number As Lockdown Is Eased. [online] Available at: <https://news.sky.com/story/coronavirus-why-the-government-will-anxiously-look-at-the-r-number-as-lockdown-is-eased-11985811> [Accessed 23 December 2020].
+
+
+
+
+
+
+
+
